@@ -1,5 +1,9 @@
 ## Maskinlæring og dataanalyse
 
+* [Classification vs. Prediction](http://www.fharrell.com/2017/01/classification-vs-prediction.html)
+* [The Emergence of a Fovea while Learning to Attend](http://bair.berkeley.edu/blog/2017/11/09/learn-to-attend-fovea/)
+* [Alternating Conditional Expectation](https://github.com/partofthething/ace)
+* [Clever Methods of Overfitting](http://hunch.net/?p=22)
 * [Search-based structured prediction](http://hunch.net/~jl/projects/reductions/searn/searn.pdf)
 * [Artificial Intelligence, poker and regret](https://medium.com/@RemiStudios/artificial-intelligence-poker-and-regret-part-1-36c78d955720)
 * [Entropy Maximization and intelligent behaviour](http://paulispace.com/intelligence/2017/07/06/maxent.html)
@@ -12,6 +16,10 @@
 * [My solution for the Galaxy Zoo challenge](http://benanne.github.io/2014/04/05/galaxy-zoo.html)
 * [Insights into a corpus of 2.5 million news headlines](https://freedom-to-tinker.com/2016/09/14/all-the-news-thats-fit-to-change-insights-into-a-corpus-of-2-5-million-news-headlines/)
 
+### Tutorials
+
+* [I ranked every Intro to Data Science course on the internet, based on thousands of data points](https://medium.freecodecamp.org/i-ranked-all-the-best-data-science-intro-courses-based-on-thousands-of-data-points-db5dc7e3eb8e)
+
 ### NLP
 
 * [Clickbait classifier](https://github.com/peterldowns/clickbait-classifier)
@@ -19,6 +27,7 @@
 
 ### Bilde- og lydanalyse
 
+* [Globally and Locally Consistent Image Completion](http://hi.cs.waseda.ac.jp/~iizuka/projects/completion/en/)
 * [WaveNet: A Generative Model for Raw Audio](https://deepmind.com/blog/wavenet-generative-model-raw-audio/)
 * [WaveFunctionCollapse](https://github.com/mxgmn/WaveFunctionCollapse)
     - [Min Java-port av WFC](https://github.com/trygvebw/JavaWaveFunctionCollapse)
@@ -47,6 +56,8 @@
 
 Se også under hver enkelt modell.
 
+* [Inside Darpa's push to make AI explain itself](https://blogs.wsj.com/cio/2017/08/10/inside-darpas-push-to-make-artificial-intelligence-explain-itself/)
+* [LIME - Local Interpretable Model-Agnostic Explanations](https://homes.cs.washington.edu/~marcotcr/blog/lime/)
 * [Skater, model agnostic interpretation library](https://github.com/datascienceinc/Skater)
 * [The Mythos of Model Interpretability](https://arxiv.org/abs/1606.03490)
 * [Help with interpretation of trained networks](https://www.reddit.com/r/MachineLearning/comments/5mzmig/d_help_with_interpretation_of_trained_networks/)
@@ -62,6 +73,7 @@ Se også under hver enkelt modell.
 
 ### Semi-supervised learning
 
+* [EC3: Combining Clustering and Classification for Ensemble Learning](https://arxiv.org/abs/1708.08591v1)
 * [An introduction to biclustering](http://www.kemaleren.com/an-introduction-to-biclustering.html)
 * [Co-training](https://en.wikipedia.org/wiki/Co-training)
 * [Sklearn Semi-Supervised](http://scikit-learn.org/stable/modules/label_propagation.html)
@@ -99,8 +111,14 @@ Se også under hver enkelt modell.
 * [Why is it wrong to use non-nested cross-validation?](http://stats.stackexchange.com/questions/179029/why-is-it-wrong-to-use-non-nested-cross-validation?rq=1)
 * [How can I help ensure testing data does not leak into training data?](http://stats.stackexchange.com/questions/20010/how-can-i-help-ensure-testing-data-does-not-leak-into-training-data)
 
+### Symbolsk regresjon
+
+* [GPLearn, et bibliotek for symbolsk regresjon](https://gplearn.readthedocs.io/en/stable/index.html)
+* [Symbolic regression](https://en.wikipedia.org/wiki/Symbolic_regression)
+
 ### Lineær regresjon og relaterte modeller
 
+* [Random generalized linear model](https://labs.genetics.ucla.edu/horvath/RGLM/)
 * [When should I use LASSO vs ridge?](https://stats.stackexchange.com/questions/866/when-should-i-use-lasso-vs-ridge)
 * [Need advice on finding good regularization parameter for ridge regression](https://www.reddit.com/r/MachineLearning/comments/1gbrgs/need_advice_on_finding_good_regularization/)
 * [Kernel ridge regression, Gaussian processes, and ensemble methods](https://people.eecs.berkeley.edu/~bartlett/courses/281b-sp08/10.pdf)
@@ -108,6 +126,24 @@ Se også under hver enkelt modell.
 
 ### Trær, random forests, gradient boosting og regelmodeller
 
+* [To tune or not to tune the number of trees in random forest?](https://arxiv.org/abs/1705.05654v1)
+* [Of decision trees and genetic algorithms](http://numbersandcode.com/of-decision-trees-and-genetic-algorithms)
+* [GENESIM: Genetic Extraction of a Single, Interpretable Model](https://github.com/IBCNServices/GENESIM)
+* [party with the mob: Model-Based Recursive Partitioning in R](https://cran.r-project.org/web/packages/party/vignettes/MOB.pdf)
+* [Generalized Random Forests](https://arxiv.org/abs/1610.01271v3)
+* [Learn on Source, Refine on Target: A Model Transfer Learning Framework with Random Forests](https://arxiv.org/abs/1511.01258v2)
+    - "It is obvious that a single classifier can describe two identical domains. Therefore, as one domains drifts, the changes can be captured via small modifications to the tree structure."
+* Kan trykke "show similar" i Arxiv Sanity Preserver for å finne flere artikler om trær!
+* [Canonical Correlation Forests](https://arxiv.org/abs/1507.05444v6)
+* [Ensemble of Model Trees and Artifical Neural Network models for forecasting](http://www.neural-forecasting-competition.com/downloads/NN3/methods/57-NN3_Gerald_Corzo.pdf)
+* [Logistic model tree](https://en.wikipedia.org/wiki/Logistic_model_tree)
+* [ToPs: Ensemble Learning with Trees of Predictors](https://arxiv.org/pdf/1706.01396.pdf)
+* [Random Forest Regression and trended time-series](https://stats.stackexchange.com/questions/175908/random-forest-regression-and-trended-time-series?rq=1)
+* [Ideas for outputting a prediction equation for Random Forests](https://stats.stackexchange.com/questions/72266/ideas-for-outputting-a-prediction-equation-for-random-forests?rq=1)
+* [Quantile Regression Forests](http://www.jmlr.org/papers/volume7/meinshausen06a/meinshausen06a.pdf)
+* [Exploiting random projections and sparsity with random forests and gradient boosting methods](https://arxiv.org/abs/1704.08067v1)
+* [Decision Trees and Regression - Can predicted values be outside range of training data?](https://stats.stackexchange.com/questions/190503/decision-trees-and-regression-can-predicted-values-be-outside-range-of-trainin?rq=1)
+    - Kommentarene nevner trær med regresjon
 * [Predictive Learning via Rule Ensembles (artikkel om Rulefit)](http://statweb.stanford.edu/~jhf/ftp/RuleFit.pdf)
 * [Memory-Efficient Global Refinement of Decision-Tree Ensembles](https://arxiv.org/abs/1702.08481)
 * [Difference between rulefit and random forest](https://stats.stackexchange.com/questions/208930/difference-between-rulefit-and-random-forest)
@@ -142,11 +178,11 @@ Se også under hver enkelt modell.
 
 #### Visualisering og tolking av tremodeller
 
+* [Random forest interpretation with scikit-learn](http://blog.datadive.net/random-forest-interpretation-with-scikit-learn/)
 * [Why and how use random forest variable importance measures](http://www.statistik.uni-dortmund.de/useR-2008/slides/Strobl+Zeileis.pdf)
 * [Forest floor visualizations of Random Forest](http://forestfloor.dk/)
     - [Implementasjon i R](https://github.com/sorhawell/forestFloor)
 * [Making Tree Ensembles Interpretable](https://arxiv.org/pdf/1606.05390.pdf)
-* [Random forest interpretation with scikit-learn](http://blog.datadive.net/random-forest-interpretation-with-scikit-learn/)
 * [Interpreting random forests](http://blog.datadive.net/interpreting-random-forests/)
 * [Feature Correlation and Feature Importance Bias with Random Forests](http://rnowling.github.io/machine/learning/2015/08/11/random-forest-correlation-bias.html)
 * [What are some proven methods to get probability values from Random Forests?](https://www.quora.com/What-are-some-proved-methods-to-get-probability-values-from-Random-Forests)
@@ -192,6 +228,9 @@ Se også under hver enkelt modell.
 
 ### Nevrale nettverk
 
+* [Feature visualization – How neural networks build up their understanding of images](https://distill.pub/2017/feature-visualization/)
+* [PyTorch implementation of Interpretable Explanations of Black Boxes by Meaningful Perturbation](https://github.com/jacobgil/pytorch-explain-black-box)
+* [Interpretable Convolutional Neural Networks](https://arxiv.org/abs/1710.00935)
 * [Do numerical inaccuracies play any role in training neural networks?](https://datascience.stackexchange.com/questions/20271/do-numerical-inaccuracies-play-any-role-in-training-neural-networks)
 * [Visualizing representations](http://colah.github.io/posts/2015-01-Visualizing-Representations/)
 * [LSTM by example using Tensorflow](https://medium.com/towards-data-science/lstm-by-example-using-tensorflow-feb0c1968537)
@@ -215,6 +254,8 @@ Se også under hver enkelt modell.
 
 ### Tidsrekker
 
+* [PyDLM, a flexible time series modeling library for Python](https://github.com/wwrechard/pydlm)
+* [Fitting Bayesian structural time series](http://www.unofficialgoogledatascience.com/2017/07/fitting-bayesian-structural-time-series.html)
 * [Tick, statistical learning for time dependent systems library](https://x-datainitiative.github.io/tick/)
 * [seasonal – Robustly estimate trend and periodicity in a timeseries](https://github.com/welch/seasonal)
 * [Strategies for Multi-Step Time Series Forecasting](https://machinelearningmastery.com/multi-step-time-series-forecasting/)
@@ -250,6 +291,7 @@ forecasting based on the NN5 forecasting competition](https://arxiv.org/pdf/1108
 
 ## Probabilistisk programmering, bayesianske nettverk og MRF-er
 
+* [Deep Learning and Graphical Models](https://plus.google.com/+YannLeCunPhD/posts/51gWtf7X3Ee)
 * [Probabilistic programming from scratch](http://blog.fastforwardlabs.com/2017/07/06/probabilistic-programming-from-scratch.html)
 * [Dynamic Bayesian network](https://en.wikipedia.org/wiki/Dynamic_Bayesian_network)
 * [Is there any domain where Bayesian Networks outperform neural networks?](https://www.reddit.com/r/MachineLearning/comments/41dij6/is_there_any_domain_where_bayesian_networks/)
@@ -310,6 +352,12 @@ forecasting based on the NN5 forecasting competition](https://arxiv.org/pdf/1108
 
 ## Statistikk
 
+* [Graphical lasso](https://en.wikipedia.org/wiki/Graphical_lasso)
+* [Bayesian Decision Theory](http://www.byclb.com/TR/Tutorials/neural_networks/ch4_1.htm)
+* [Frank Harrell på Stack Exchange](https://stats.stackexchange.com/users/4253/frank-harrell)
+* [Deconstructing statistical questions](http://statlab.bio5.org/sites/default/files/fall2014/hand-deconstructin.pdf)
+* [Gaussian Distributions are Soap Bubbles](http://www.inference.vc/high-dimensional-gaussian-distributions-are-soap-bubble/)
+* [If mean is so sensitive, why use it in the first place?](https://stats.stackexchange.com/questions/14210/if-mean-is-so-sensitive-why-use-it-in-the-first-place/14218#14218)
 * [The fallacy of placing confidence in confidence intervals](https://link.springer.com/article/10.3758%2Fs13423-015-0947-8)
 * [Brownian bridge](https://en.wikipedia.org/wiki/Brownian_bridge)
 * [Hypothesis testing is a bad idea](https://www.reddit.com/r/statistics/comments/5275d6/hypothesis_testing_is_a_bad_idea_whether/)
@@ -319,6 +367,7 @@ forecasting based on the NN5 forecasting competition](https://arxiv.org/pdf/1108
 
 ## Diverse matematikk
 
+* [Self-Replicating Functions](http://tylerneylon.com/a/self_repl/)
 * [BK-trær](http://signal-to-noise.xyz/post/bk-tree/)
     - Indekserer data over et metrisk rom
 * [The First Law of Complexodynamics](http://www.scottaaronson.com/blog/?p=762)
